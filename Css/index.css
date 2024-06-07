@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url(/image/alfons-morales-YLSwjSy7stw-unsplash.jpg);
@@ -10,20 +11,20 @@ body {
 }
 
 .title-head h1 {
-    font-family: 'Pacifico', cursive;
+    font-family: "Pacifico", cursive;
     font-size: 50px;
     line-height: 70px;
     position: relative;
 }
 
 .title-head h1::after {
-    content: '';
+    content: "";
     position: absolute;
     width: 100%;
     height: 20%;
     left: 0;
     bottom: 10px;
-    background-color: #C58940;
+    background-color: #c58940;
     transition: height 1s ease;
     z-index: -1;
 }
@@ -36,19 +37,18 @@ body {
     width: fit-content;
     margin: auto;
     color: rgb(255, 255, 255);
-
 }
 
 .info {
     border-width: 2px 0 2px 0;
     border-style: dotted;
-    border-color: #C58940;
+    border-color: #c58940;
 }
 
 .info .content-tittle {
     font-family: "Righteous", cursive;
     font-size: 30px;
-    background-image: linear-gradient(to right, #E5BA73, #e1ceb7);
+    background-image: linear-gradient(to right, #e5ba73, #e1ceb7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -60,7 +60,7 @@ body {
 
 .info .sitename i,
 .siteurl i {
-    color: #E5BA73;
+    color: #e5ba73;
 }
 
 .form-control:focus {
@@ -68,11 +68,11 @@ body {
     background-color: #fff;
     border-color: #d99c39;
     outline: 0;
-    box-shadow: 0 0 0 0.20rem #E5BA73;
+    box-shadow: 0 0 0 0.2rem #e5ba73;
 }
 
 .btn {
-    background-color: #E5BA73;
+    background-color: #e5ba73;
     color: #764e1d;
     border: none;
 }
@@ -84,7 +84,7 @@ body {
 
 .btn:focus-visible {
     color: black;
-    background-color: #E5BA73;
+    background-color: #e5ba73;
     border-color: none;
     outline: 0;
     box-shadow: none;
@@ -97,8 +97,8 @@ body {
 .btn:first-child:active,
 :not(.btn-check)+.btn:active {
     color: white;
-    background-color: #FFBF00;
-    border-color: #FFBF00;
+    background-color: #ffbf00;
+    border-color: #ffbf00;
 }
 
 .table {
@@ -106,6 +106,10 @@ body {
 }
 
 .table th {
-    background-color: #E5BA73;
+    background-color: #e5ba73;
     border-bottom: none;
+}
+
+.table-row {
+    color: #ffffff !important;
 }
