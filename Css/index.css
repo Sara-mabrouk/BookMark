@@ -49,7 +49,7 @@ body {
     font-family: "Righteous", cursive;
     font-size: 30px;
     background-image: linear-gradient(to right, #e5ba73, #e1ceb7);
-    /* -webkit-background-clip: text; */
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
