@@ -1,9 +1,8 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
         url(/image/alfons-morales-YLSwjSy7stw-unsplash.jpg);
